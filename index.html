@@ -7,13 +7,13 @@
     <title>Portfolio Waitlist</title>
   </head>
   <body>
-    <div id="redirect">Redirecting</div>
+    <div id="redirect">Redirect Here </div>
     <script>
       const redirect = document.getElementById("redirect");
-      redirect.innerHTML = "Redirecting...";
       const url = "https://armandotrsg.github.io/portfolio/home";
       const a = document.createElement("a");
       a.href = url;
+      a.innerhtml = "Click Here to redirect";
       redirect.appendChild(a);
       a.click();
     </script>
