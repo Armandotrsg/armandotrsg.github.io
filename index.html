@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Waitlist</title>
+  </head>
+  <body>
+    <div id="redirect"></div>
+    <script>
+      const redirect = document.getElementById("redirect");
+      redirect.innerHTML = "Redirecting...";
+      const url = "https://armandotrsg.github.io/portfolio/home";
+      const a = document.createElement("a");
+      a.href = url;
+      redirect.appendChild(a);
+      a.click();
+    </script>
+  </body>
+</html>
